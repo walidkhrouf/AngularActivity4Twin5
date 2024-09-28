@@ -1,7 +1,7 @@
 import { Directive, ElementRef, HostListener, Renderer2 } from '@angular/core';
 
 @Directive({
-  selector: '[appHighlight]' // Sélecteur pour appliquer la directive
+  selector: '[appHighlight]' 
 })
 export class HighlightDirective {
   constructor(private el: ElementRef, private renderer: Renderer2) {}
