@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { ListCategoriesComponent } from './list-categories/list-categories.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { HighlightDirective } from './directives/highlight.directive';
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+import { ProductsCategoryComponent } from './products-category/products-category.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HighlightDirective } from './directives/highlight.directive';
     HomeComponent,
     ListCategoriesComponent,
     FilterPipe,
-    HighlightDirective
+    HighlightDirective,
+    NotFoundPageComponent,
+    ProductsCategoryComponent
   ],
   imports: [
     BrowserModule,
